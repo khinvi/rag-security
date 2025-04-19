@@ -8,7 +8,7 @@ A comprehensive security framework for Retrieval-Augmented Generation (RAG) syst
 
 ## 🔒 Project Overview
 
-This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments.
+This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. Progress by component:
 
 ### Research Goals
 
@@ -24,27 +24,6 @@ The security architecture implements three defense layers:
 1. **Pre-retrieval Defense**: Input validation and prompt sanitization to catch attacks before they reach the retrieval system
 2. **Vector Database Security**: Embedding verification and access controls to prevent poisoning and unauthorized data access
 3. **Post-retrieval Defense**: Response validation to detect and mitigate the effects of successful attacks
-
-## 🚀 Current Status
-
-This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. Progress by component:
-
-- ✅ Project architecture design
-- ✅ Pre-retrieval defense implementation
-- 🔄 Vector database security (in progress)
-- 🔄 Post-retrieval defense (in progress)
-- ⬜ Security monitoring and logging
-- ⬜ Comprehensive testing
-- ⬜ Cloud deployment automation
-
-## 📋 Implementation Timeline
-
-This is an 8-week research project with the following timeline:
-
-- **Weeks 1-2**: Core framework and pre-retrieval defense
-- **Weeks 3-4**: Vector database security
-- **Weeks 5-6**: Post-retrieval defense and monitoring
-- **Weeks 7-8**: Testing, evaluation, and deployment
 
 ## 🛠️ Getting Started
 
@@ -92,14 +71,6 @@ Or use Docker Compose:
 docker-compose up --build
 ```
 
-## 📚 Documentation
-
-- [Architecture Overview](docs/architecture.md)
-- [Security Features](docs/security_features.md)
-- [API Documentation](docs/api.md)
-- [Deployment Guide](docs/deployment.md)
-- [Testing Framework](docs/testing.md)
-
 ## 📊 Evaluation
 
 The project includes a comprehensive evaluation framework to measure:
@@ -135,7 +106,7 @@ Khinvasara, A. (2025). Securing Cloud-Based RAG Systems Against Prompt Injection
 University of California, San Diego.
 ```
 
-## 🔗 Related Work
+## 🔗 Related Works
 
 - Wei, J., et al. (2023). "Jailbreaking Black Box Large Language Models in Twenty Queries."
 - Greshake, K., et al. (2023). "More than you've asked for: A Comprehensive Analysis of Novel Prompt Injection Threats to Application-Integrated Large Language Models."
