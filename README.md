@@ -8,7 +8,7 @@ A comprehensive security framework for Retrieval-Augmented Generation (RAG) syst
 
 ## 🔒 Project Overview
 
-This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal.
+This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. If interested, read the research proposal [here](https://github.com/khinvi/rag-security/blob/main/Research_Proposal__Securing_Cloud_Based_RAG_Systems_Against_Prompt_Injection_Attacks.pdf)
 
 ### Research Goals
 
@@ -16,7 +16,7 @@ This repository contains the implementation of my research on securing RAG syste
 2. Design and implement a three-layer defense framework
 3. Develop quantitative metrics for evaluating RAG security
 4. Provide implementation guidelines for secure cloud deployment
-
+   
 ### Three-Layer Defense Framework
 
 The security architecture implements three defense layers:
