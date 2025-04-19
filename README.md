@@ -8,7 +8,7 @@ A comprehensive security framework for Retrieval-Augmented Generation (RAG) syst
 
 ## 🔒 Project Overview
 
-This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. Progress by component:
+This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal.
 
 ### Research Goals
 
