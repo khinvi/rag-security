@@ -1,4 +1,4 @@
-# Secure RAG Framework
+# Securing Cloud-Based RAG Systems Against Prompt Injection Attacks
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10-green.svg)
