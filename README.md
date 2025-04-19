@@ -38,8 +38,8 @@ The security architecture implements three defense layers:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/akhinvasara/secure-rag-framework.git
-cd secure-rag-framework
+git clone https://github.com/khinvi/rag-security.git
+cd rag-security
 ```
 
 2. Create a virtual environment
