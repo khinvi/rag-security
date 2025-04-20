@@ -8,7 +8,7 @@ A comprehensive security framework for Retrieval-Augmented Generation (RAG) syst
 
 ## 🔒 Project Overview
 
-This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. If interested, read the research proposal [here](https://github.com/khinvi/rag-security/blob/main/Research_Proposal__Securing_Cloud_Based_RAG_Systems_Against_Prompt_Injection_Attacks_.pdf)
+This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. If interested, read the research proposal [here](https://github.com/akhinvasara/rag-security/blob/main/Research_Proposal__Securing_Cloud_Based_RAG_Systems_Against_Prompt_Injection_Attacks_.pdf)
 
 ### Research Goals
 
@@ -38,22 +38,23 @@ The security architecture implements three defense layers:
 
 1. Clone the repository
 ```bash
-git clone https://github.com/khinvi/rag-security.git
+git clone https://github.com/akhinvasara/rag-security.git
 cd rag-security
 ```
 
-2. Create a virtual environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: .\venv\Scripts\activate
-```
+2. Install dependencies (choose one option)
 
-3. Install dependencies
+**Option A: Direct installation** (Recommended for this project)
 ```bash
 pip install -r requirements.txt
 ```
 
-4. Set up environment variables
+**Option B: Docker** (Avoids installing packages directly)
+```bash
+# Just use the Docker approach below - no pip install needed
+```
+
+3. Set up environment variables
 ```bash
 cp .env.example .env
 # Edit .env with your API keys
@@ -108,6 +109,6 @@ University of California, San Diego.
 
 ## 🔗 Related Works
 
-- Wei, J., et al. (2023). "Jailbreaking Black Box Large Language Models in Twenty Queries."
+- Chao, et al. (2023). "Jailbreaking Black Box Large Language Models in Twenty Queries."
 - Greshake, K., et al. (2023). "More than you've asked for: A Comprehensive Analysis of Novel Prompt Injection Threats to Application-Integrated Large Language Models."
 - Zou, A., et al. (2023). "Universal and Transferable Adversarial Attacks on Aligned Language Models."
