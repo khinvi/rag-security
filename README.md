@@ -1,7 +1,5 @@
 # Securing Cloud-Based RAG Systems Against Prompt Injection Attacks
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Python Version](https://img.shields.io/badge/python-3.10-green.svg)
 ![Status](https://img.shields.io/badge/status-research_in_progress-yellow.svg)
 
 A comprehensive security framework for Retrieval-Augmented Generation (RAG) systems deployed in cloud environments, with a focus on defending against prompt injection attacks targeting vector database components.
