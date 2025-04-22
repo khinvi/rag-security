@@ -6,7 +6,7 @@ A comprehensive security framework for Retrieval-Augmented Generation (RAG) syst
 
 ## 🔒 Project Overview
 
-This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. If interested, read the research proposal [here](https://github.com/akhinvasara/rag-security/blob/main/Research_Proposal__Securing_Cloud_Based_RAG_Systems_Against_Prompt_Injection_Attacks_.pdf)
+This repository contains the implementation of my research on securing RAG systems against prompt injection and vector database attacks. The project addresses critical security vulnerabilities in RAG deployments that leverage vector databases in production environments. This project is currently in active development as part of my research at UC San Diego. I am implementing and testing the security framework components outlined in my proposal. If interested, read the research proposal [here](https://github.com/khinvi/rag-security/blob/main/Research_Proposal__Securing_Cloud_Based_RAG_Systems_Against_Prompt_Injection_Attacks_.pdf)
 
 ### Research Goals
 
